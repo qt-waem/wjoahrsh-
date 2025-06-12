@@ -55,6 +55,4 @@ else:
 result = f"🔍 التحليل الفني:\n- {rsi_signal}\n- {stoch_signal}\n- {trend}\n{recommendation}"
 return result
 
-مثال استخدام
-
-image_path = "chart_sample.jpg" rsi_val, stoch_vals = extract_rsi_stochastic(image_path) result = analyze_signals(rsi_val, stoch_vals) print(result)
+مثال استخداimage_path = "chart_sample.jpg" rsi_val, stoch_vals = extract_rsi_stochastic(image_path) result = analyze_signals(rsi_val, stoch_vals) print(result)
